@@ -3,11 +3,15 @@
     "id": "9118bfc7-1ce0-4aa2-9aaf-d07bb0af1e35"
   },
   "entities": {
-    "environments": [],
-    "flows": [],
-    "globals": [],
-    "mocks": [],
+    "collections": [
+      "../postman/collections/catalog-catalog-api_52176198-04785e43-126a-4011-84ce-f3269c47a1b9.postman_collection.json",
+      "../postman/collections/Catalog Service API_52176198-a370a74f-28c0-4356-9a2b-192317cbe596.postman_collection.json"
+    ],
+    "environments": [
+      "../postman/environments/Catalog Service - Dev_52176198-aa84ac36-682e-49f7-aef4-fa843a9bad18.postman_environment.json"
+    ],
     "specs": [],
-    "collections": []
+    "flows": [],
+    "globals": []
   }
 }
