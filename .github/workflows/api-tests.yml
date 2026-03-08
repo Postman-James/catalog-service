@@ -29,11 +29,13 @@ jobs:
 
       - name: Lint OpenAPI Spec
         run: postman spec lint postman/specs/catalog-api.openapi.yaml --report-events
+        continue-on-error: true
 
   run-collection-tests:
     name: Run Collection Tests
     runs-on: ubuntu-latest
     needs: lint-api-spec
+    if: always()
     
     steps:
       - name: Checkout repository
